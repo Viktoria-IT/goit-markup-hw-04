@@ -129,6 +129,7 @@ img {
 .icon-list::before {
   content: ' ';
   fill: var(--pepel-text);
+  margin-right: 10px;
 }
 
 .contacts-mail {
