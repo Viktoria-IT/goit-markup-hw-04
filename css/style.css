@@ -126,7 +126,7 @@ img {
   color: var(--blue-text);
 }
 
-.icon-list::before {
+.icon-mail::before {
   display: flex;
   align-items: center;
   content: ' ';
