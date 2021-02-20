@@ -126,13 +126,13 @@ img {
   color: var(--blue-text);
 }
 
-.icon-mail::before {
+/* .icon-mail::before {
   display: flex;
   align-items: center;
   content: ' ';
   fill: var(--pepel-text);
   margin-right: 10px;
-}
+} */
 
 .contacts-mail {
   font-style: normal;
@@ -275,6 +275,13 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--pepel-text);
+}
+
+.list-set {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background: var(--icon-background);
 }
 
 /* main */
