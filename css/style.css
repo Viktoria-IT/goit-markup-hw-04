@@ -127,6 +127,8 @@ img {
 }
 
 .icon-list::before {
+  display: flex;
+  align-items: center;
   content: ' ';
   fill: var(--pepel-text);
   margin-right: 10px;
