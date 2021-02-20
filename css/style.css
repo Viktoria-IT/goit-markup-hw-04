@@ -16,6 +16,7 @@
 
   --icon-cocial: rgba(175, 177, 184, 1);
   --icon-color: rgba(47, 48, 58, 1);
+  --icon-background: rgba(245, 244, 250, 1);
 }
 
 body {
@@ -125,7 +126,7 @@ img {
   color: var(--blue-text);
 }
 
-.social-links-info .icon-list::before {
+.contacts-mail::before {
   content: ' ';
   fill: var(--pepel-text);
 }
