@@ -125,13 +125,9 @@ img {
   color: var(--blue-text);
 }
 
-.icon-mail {
+.social-links-info .icon-list::before {
+  content: ' ';
   fill: var(--pepel-text);
-  margin-right: 10px;
-}
-
-.icon-mail:hover {
-  fill: var(--blue-text);
 }
 
 .contacts-mail {
@@ -161,15 +157,19 @@ img {
 
 /* hero */
 
-.overlay {
+.hero-overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
     url(../images/header.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: auto;
   background-position: center;
 }
 
