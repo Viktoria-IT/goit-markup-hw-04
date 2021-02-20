@@ -126,7 +126,7 @@ img {
   color: var(--blue-text);
 }
 
-.contacts-mail::before {
+.icon-list::before {
   content: ' ';
   fill: var(--pepel-text);
 }
@@ -411,6 +411,27 @@ img {
   margin-right: 30px;
   flex-basis: calc(100% / 6 - 30px);
 }
+
+/* .clients-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 90px;
+  color: var(--clients-svg-color);
+  border-radius: 4px;
+  border: 1px solid var(--clients-svg-color);
+}
+
+.clients-logo {
+  fill: currentColor;
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  color:var(--accent-text);
+  border: 1px solid var(--accent-text);
+} */
 
 /* address */
 
