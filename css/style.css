@@ -125,11 +125,11 @@ img {
   cursor: pointer;
   color: var(--blue-text);
 }
-/* 
+
 .contacts-mail::before {
   content: ' ';
   fill: var(--pepel-text);
-} */
+}
 
 .contacts-mail {
   font-style: normal;
