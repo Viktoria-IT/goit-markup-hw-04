@@ -396,6 +396,35 @@ img {
   color: var(--pepel-text);
 }
 
+.cocial-link {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+/* 
+.cocial-list {
+} */
+
+.cocial-item {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-text);
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.cocial-item:hover {
+  background-color: var(--blue-text);
+}
+
+.cocial-item:last-child {
+  margin-right: 0;
+}
+
 /* Постоянные клиенты */
 
 .conteiner-client {
