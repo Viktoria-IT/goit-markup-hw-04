@@ -127,9 +127,10 @@ img {
 }
 
 .item .icon-mail {
-  margin-left: 10px;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
+  fill: var(--pepel-text);
+  padding-left: 10px;
 }
 
 .icon-mail::before {
