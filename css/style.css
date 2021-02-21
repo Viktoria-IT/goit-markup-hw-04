@@ -71,6 +71,11 @@ img {
   margin-left: auto;
 }
 
+.social-links-info .item {
+  display: flex;
+  align-items: center;
+}
+
 .social-links-info > .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -78,11 +83,6 @@ img {
 .social-links-info:hover,
 .social-links-info:focus {
   color: var(--blue-text);
-}
-
-.item > .contacts-mail,
-.item > .contacts-tel {
-  align-items: center;
 }
 
 .logo {
