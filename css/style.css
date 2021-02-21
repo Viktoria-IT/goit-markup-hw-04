@@ -437,6 +437,7 @@ img {
 }
 
 .cocial-list:hover {
+  fill: var(--white-text);
   background-color: var(--blue-text);
 }
 
