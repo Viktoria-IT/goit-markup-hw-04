@@ -153,13 +153,13 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  color: var(--pepel-text);
+  fill: var(--pepel-text);
   cursor: pointer;
 }
 
 .contacts-mail:hover,
 .contacts-mail:focus {
-  color: var(--blue-text);
+  fill: var(--blue-text);
   text-decoration: underline;
 }
 
@@ -431,7 +431,6 @@ img {
   justify-content: center;
   color: var(--white-text);
   border-radius: 50%;
-  /* margin-right: 10px; */
 }
 
 .cocial-item:last-child {
@@ -440,6 +439,16 @@ img {
 
 .cocial-item:hover {
   background-color: var(--blue-text);
+}
+
+.icon-svg {
+  margin-right: 10px;
+  fill: var(--icon-cocial);
+}
+
+.icon-svg:hover,
+.icon-svg:focus {
+  fill: var(--white-text);
 }
 
 /* Постоянные клиенты */
@@ -575,7 +584,7 @@ img {
   padding-bottom: 104px;
 }
 
-.icon-svg {
+.icons-svg {
   display: flex;
   width: 44px;
   height: 44px;
@@ -585,7 +594,7 @@ img {
   border-radius: 50%;
 }
 
-.icon-svg:hover {
+.icons-svg:hover {
   background-color: var(--icon-color);
 }
 
