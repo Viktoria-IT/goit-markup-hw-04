@@ -408,7 +408,7 @@ img {
 .cocial-list {
 } */
 
-.cocial-item {
+.cocial-item:hover {
   display: flex;
   width: 44px;
   height: 44px;
