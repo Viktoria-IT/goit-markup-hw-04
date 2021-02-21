@@ -492,8 +492,10 @@ img {
   fill: currentColor;
 }
 
-.clients-svg:hover,
-.clients-svg:focus {
+.list-client .clients-logo:hover .clients-svg,
+.list-client .clients-logo:focus .clients-svg,
+.list-client .clients-logo:hover .clients-svg,
+.list-client .clients-logo:focus .clients-svg {
   fill: var(--blue-text);
   border: 1px solid var(--blue-text);
 }
