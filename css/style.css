@@ -86,8 +86,11 @@ img {
   color: var(--blue-text);
 }
 
-.social-links-info .item:hover .icon,
-.social-links-info .item:focus .icon,
+.social-links-info .item:hover .contacts-tel,
+.social-links-info .item:focus .contacts-tel {
+  color: var(--blue-text);
+}
+
 .social-links-info .item:hover .icon,
 .social-links-info .item:focus .icon {
   fill: var(--blue-text);
