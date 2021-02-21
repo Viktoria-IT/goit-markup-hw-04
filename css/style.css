@@ -126,6 +126,12 @@ img {
   color: var(--blue-text);
 }
 
+.item .icon-mail {
+  margin-left: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
 .icon-mail::before {
   display: flex;
   align-items: center;
