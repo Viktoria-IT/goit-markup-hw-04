@@ -76,6 +76,11 @@ img {
   align-items: center;
 }
 
+.item .icon-mail,
+.item .icon-tel {
+  margin-left: 10px;
+}
+
 .social-links-info .item:hover .contacts-mail,
 .social-links-info .item:focus .contacts-mail {
   color: var(--blue-text);
