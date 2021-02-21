@@ -76,6 +76,11 @@ img {
   margin-right: 30px;
 }
 
+.social-links-info:hover,
+.social-links-info:focus {
+  color: var(--blue-text);
+}
+
 .logo {
   color: var(--blue-text);
   font-family: Raleway, sans-serif;
