@@ -69,6 +69,7 @@ img {
 .social-links-info {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .social-links-info > .item:not(:last-child) {
@@ -127,15 +128,10 @@ img {
 }
 
 .item .icon-mail {
-  align-items: center;
-  justify-content: center;
   fill: var(--pepel-text);
-  padding-left: 10px;
 }
 
 .icon-mail::before {
-  display: flex;
-  align-items: center;
   content: ' ';
   fill: var(--pepel-text);
   margin-right: 10px;
@@ -147,11 +143,8 @@ img {
 }
 
 .icon-tel::before {
-  display: flex;
-  align-items: center;
   content: ' ';
   fill: var(--pepel-text);
-  padding-left: 10px;
 }
 
 .contacts-mail {
