@@ -441,7 +441,6 @@ img {
 
 .cocial-link .cocial-list:hover .icon-svg,
 .cocial-link .cocial-list:focus .icon-svg {
-  fill: var(--white-text);
   background-color: var(--blue-text);
 }
 
