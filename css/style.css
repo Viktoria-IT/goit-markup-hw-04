@@ -439,6 +439,11 @@ img {
   margin-right: 0;
 }
 
+.icon-svg {
+  fill: var(--icon-cocial);
+  padding: 12px;
+}
+
 .cocial-link .cocial-list:hover .icon-svg,
 .cocial-link .cocial-list:focus .icon-svg {
   fill: var(--white-text);
@@ -448,16 +453,6 @@ img {
 .cocial-link .cocial-list:focus {
   background-color: var(--blue-text);
 }
-
-.icon-svg {
-  fill: var(--icon-cocial);
-  padding: 12px;
-}
-
-/* .icon-svg:hover,
-.icon-svg:focus {
-  fill: var(--white-text);
-} */
 
 /* Постоянные клиенты */
 
