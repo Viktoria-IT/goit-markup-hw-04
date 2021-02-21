@@ -424,7 +424,6 @@ img {
   height: 44px;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
 }
 
 .cocial-item:last-child {
@@ -437,6 +436,7 @@ img {
 .cocial-link .cocial-list:focus .icon-svg {
   fill: var(--white-text);
   background-color: var(--blue-text);
+  border-radius: 50%;
 }
 
 .icon-svg {
