@@ -352,6 +352,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   padding-bottom: 94px;
+  padding-left: 0;
   margin-right: -30px;
   margin-top: 0;
   margin-bottom: 0;
