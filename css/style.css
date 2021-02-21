@@ -452,36 +452,35 @@ img {
   padding-bottom: 50px;
 }
 
-.clients-svg {
-  fill: currentColor;
-}
-
 .list-client {
   display: flex;
-  margin-right: 30px;
-  flex-basis: calc(100% / 6 - 30px);
+  margin-right: -30px;
+
+  padding-bottom: 98px;
 }
 
-/* .clients-link {
+.clients-logo {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 170px;
   height: 90px;
-  color: var(--clients-svg-color);
+  color: var(--icon-cocial);
   border-radius: 4px;
-  border: 1px solid var(--clients-svg-color);
+  border: 1px solid var(--icon-cocial);
+  margin-right: 30px;
+  flex-basis: calc(100% / 6 - 30px);
 }
 
-.clients-logo {
+.clients-svg {
   fill: currentColor;
 }
 
-.clients-link:hover,
-.clients-link:focus {
-  color:var(--accent-text);
-  border: 1px solid var(--accent-text);
-} */
+.list-client:hover,
+.list-client:focus {
+  color: var(--blue-text);
+  border: 1px solid var(--blue-text);
+}
 
 /* address */
 
