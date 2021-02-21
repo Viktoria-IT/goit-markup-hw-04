@@ -69,7 +69,6 @@ img {
 .social-links-info {
   display: flex;
   margin-left: auto;
-  align-items: center;
 }
 
 .social-links-info > .item:not(:last-child) {
@@ -79,6 +78,11 @@ img {
 .social-links-info:hover,
 .social-links-info:focus {
   color: var(--blue-text);
+}
+
+.item > .contacts-mail,
+.item > .contacts-tel {
+  align-items: center;
 }
 
 .logo {
@@ -138,17 +142,6 @@ img {
   fill: var(--pepel-text);
 }
 
-.icon-mail::before,
-.icon-tel::before {
-  content: ' ';
-  fill: var(--pepel-text);
-}
-
-.icon-mail:hover,
-.icon-mail:focus {
-  fill: var(--blue-text);
-}
-
 .contacts-mail {
   font-style: normal;
   font-weight: 500;
@@ -157,12 +150,6 @@ img {
   letter-spacing: 0.02em;
   color: var(--pepel-text);
   cursor: pointer;
-}
-
-.contacts-mail .icon-mail:hover,
-.contacts-mail .icon-mail:focus {
-  color: var(--blue-text);
-  text-decoration: underline;
 }
 
 .contacts-tel {
