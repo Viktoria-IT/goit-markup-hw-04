@@ -70,6 +70,7 @@ img {
   display: flex;
   margin-left: auto;
   align-items: center;
+  margin-left: 10px;
 }
 
 .social-links-info > .item:not(:last-child) {
@@ -157,8 +158,8 @@ img {
   cursor: pointer;
 }
 
-.contacts-mail:hover,
-.contacts-mail:focus {
+.contacts-mail .icon-mail:hover,
+.contacts-mail .icon-mail:focus {
   color: var(--blue-text);
   text-decoration: underline;
 }
