@@ -476,8 +476,8 @@ img {
   fill: currentColor;
 }
 
-.list-client:hover,
-.list-client:focus {
+.clients-svg:hover,
+.clients-svg:focus {
   color: var(--blue-text);
   border: 1px solid var(--blue-text);
 }
@@ -543,6 +543,20 @@ img {
   line-height: 24px;
   letter-spacing: 0.03em;
   color: var(--white-text);
+}
+
+.icon-svg {
+  display: flex;
+  width: 44px;
+  height: 44px;
+  align-items: center;
+  justify-content: center;
+  color: var(--white-text);
+  border-radius: 50%;
+}
+
+.icon-svg:hover {
+  background-color: var(--icon-color);
 }
 
 /* portfolio */
