@@ -437,11 +437,11 @@ img {
 
 .cocial-item:last-child {
   margin-right: 0;
+  padding: 12px;
 }
 
 .icon-svg {
   fill: var(--icon-cocial);
-  padding: 12px;
 }
 
 .cocial-link .cocial-list:hover .icon-svg,
