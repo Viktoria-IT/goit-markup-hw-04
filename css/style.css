@@ -478,7 +478,7 @@ img {
 
 .clients-svg:hover,
 .clients-svg:focus {
-  color: var(--blue-text);
+  fill: var(--blue-text);
   border: 1px solid var(--blue-text);
 }
 
