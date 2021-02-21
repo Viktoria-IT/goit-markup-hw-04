@@ -545,6 +545,23 @@ img {
   color: var(--white-text);
 }
 
+.info-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-text);
+}
+
+.info-list {
+  display: flex;
+  /* margin-right: -30px; */
+  padding-top: 68px;
+  padding-bottom: 104px;
+}
+
 .icon-svg {
   display: flex;
   width: 44px;
