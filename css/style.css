@@ -76,13 +76,18 @@ img {
   align-items: center;
 }
 
-.social-links-info > .item:not(:last-child) {
-  margin-right: 30px;
+.social-links-info .item:hover,
+.social-links-info .item:focus {
+  color: var(--blue-text);
 }
 
-.social-links-info:hover,
-.social-links-info:focus {
+.item .icon-mail:hover,
+.item .icon-mail:focus {
   color: var(--blue-text);
+}
+
+.social-links-info > .item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .logo {
