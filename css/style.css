@@ -429,7 +429,6 @@ img {
   height: 44px;
   align-items: center;
   justify-content: center;
-  color: var(--white-text);
   border-radius: 50%;
 }
 
@@ -589,12 +588,16 @@ img {
   height: 44px;
   align-items: center;
   justify-content: center;
-  fill: var(--white-text);
   border-radius: 50%;
+  background-color: var(--icon-color);
 }
 
-.icons-svg:hover {
-  background-color: var(--icon-color);
+.cocial-info:hover {
+  background-color: var(--blue-text);
+}
+
+.icons-svg {
+  fill: var(--white-text);
 }
 
 /* portfolio */
