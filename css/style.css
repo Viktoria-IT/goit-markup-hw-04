@@ -153,13 +153,13 @@ img {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-  fill: var(--pepel-text);
+  color: var(--pepel-text);
   cursor: pointer;
 }
 
 .contacts-mail:hover,
 .contacts-mail:focus {
-  fill: var(--blue-text);
+  color: var(--blue-text);
   text-decoration: underline;
 }
 
