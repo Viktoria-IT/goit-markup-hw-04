@@ -76,8 +76,8 @@ img {
   align-items: center;
 }
 
-.social-links-info .item:hover,
-.social-links-info .item:focus {
+.social-links-info .item:hover .contacts-mail,
+.social-links-info .item:focus .contacts-mail {
   color: var(--blue-text);
 }
 
