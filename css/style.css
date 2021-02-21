@@ -423,6 +423,10 @@ img {
   /* margin-right: 10px; */
 }
 
+.cocial-item:last-child {
+  margin-right: 0;
+}
+
 .cocial-item:hover {
   background-color: var(--blue-text);
   background-image: var(--white-text);
