@@ -447,6 +447,7 @@ img {
 
 .icon-svg {
   fill: var(--icon-cocial);
+  padding: 12px;
 }
 
 /* .icon-svg:hover,
