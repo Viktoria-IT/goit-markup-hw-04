@@ -440,10 +440,10 @@ img {
   fill: var(--icon-cocial);
 }
 
-.icon-svg:hover,
+/* .icon-svg:hover,
 .icon-svg:focus {
   fill: var(--white-text);
-}
+} */
 
 /* Постоянные клиенты */
 
