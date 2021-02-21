@@ -81,9 +81,8 @@ img {
   color: var(--blue-text);
 }
 
-.item .icon-mail:hover,
-.item .icon-mail:focus {
-  color: var(--blue-text);
+.social-links-info .item:hover .icon-mail {
+  fill: var(--blue-text);
 }
 
 .social-links-info > .item:not(:last-child) {
