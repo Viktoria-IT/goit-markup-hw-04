@@ -126,13 +126,26 @@ img {
   color: var(--blue-text);
 }
 
-/* .icon-mail::before {
+.icon-mail::before {
   display: flex;
   align-items: center;
   content: ' ';
   fill: var(--pepel-text);
   margin-right: 10px;
-} */
+}
+
+.icon-mail:hover,
+.icon-mail:focus {
+  fill: var(--blue-text);
+}
+
+.icon-tel::before {
+  display: flex;
+  align-items: center;
+  content: ' ';
+  fill: var(--pepel-text);
+  margin-right: 10px;
+}
 
 .contacts-mail {
   font-style: normal;
