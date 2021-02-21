@@ -571,10 +571,6 @@ img {
   color: var(--white-text);
 }
 
-.cocials-icons {
-  display: flex;
-}
-
 .info-text {
   font-style: normal;
   font-weight: bold;
@@ -583,12 +579,22 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--white-text);
+
+  padding-top: 68px;
 }
 
-.info-list {
+.cocial-icons {
   display: flex;
-  padding-top: 68px;
-  padding-bottom: 104px;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.list-info {
+  display: flex;
+}
+
+.list-info > .icon-list:not(:last-child) {
+  margin-right: 10px;
 }
 
 .icons-svg {
@@ -598,13 +604,15 @@ img {
   justify-content: center;
 }
 
-.cocial-info:hover {
-  background-color: var(--blue-text);
+.list-info .icon-list :hover .cocial-info {
+  fill: var(--blue-text);
 }
 
 .icon-list {
+  padding: 12px;
+  margin-right: 10px;
   border-radius: 50%;
-  background-color: var(--icon-color);
+  fill: var(--icon-color);
 }
 
 .icons-svg {
@@ -690,11 +698,6 @@ img {
   margin-top: 30px;
   flex-basis: calc(100% / 3 - 30px);
 }
-
-/* .card-list {
-  display: block;
-  margin-bottom: 0;
-} */
 
 .card-item {
   padding: 20px 24px;
