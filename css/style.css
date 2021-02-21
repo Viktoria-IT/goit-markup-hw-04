@@ -81,7 +81,10 @@ img {
   color: var(--blue-text);
 }
 
-.social-links-info .item:hover .icon-mail {
+.social-links-info .item:hover .icon,
+.social-links-info .item:focus .icon,
+.social-links-info .item:hover .icon,
+.social-links-info .item:focus .icon {
   fill: var(--blue-text);
 }
 
@@ -140,8 +143,7 @@ img {
   color: var(--blue-text);
 }
 
-.item .icon-mail,
-.item .icon-tel {
+.item .icon {
   margin-left: 10px;
   fill: var(--pepel-text);
 }
