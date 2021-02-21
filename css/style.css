@@ -70,11 +70,10 @@ img {
   display: flex;
   margin-left: auto;
   align-items: center;
-  margin-left: 10px;
 }
 
 .social-links-info > .item:not(:last-child) {
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .logo {
@@ -128,24 +127,21 @@ img {
   color: var(--blue-text);
 }
 
-.item .icon-mail {
+.item .icon-mail,
+.item .icon-tel {
+  margin-left: 10px;
   fill: var(--pepel-text);
 }
 
-.icon-mail::before {
+.icon-mail::before,
+.icon-tel::before {
   content: ' ';
   fill: var(--pepel-text);
-  margin-right: 10px;
 }
 
 .icon-mail:hover,
 .icon-mail:focus {
   fill: var(--blue-text);
-}
-
-.icon-tel::before {
-  content: ' ';
-  fill: var(--pepel-text);
 }
 
 .contacts-mail {
