@@ -436,7 +436,7 @@ img {
   margin-right: 0;
 }
 
-.cocial-item:hover {
+.cocial-list:hover {
   background-color: var(--blue-text);
 }
 
@@ -587,12 +587,15 @@ img {
   height: 44px;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
-  background-color: var(--icon-color);
 }
 
 .cocial-info:hover {
   background-color: var(--blue-text);
+}
+
+.icon-list {
+  border-radius: 50%;
+  background-color: var(--icon-color);
 }
 
 .icons-svg {
