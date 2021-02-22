@@ -15,7 +15,6 @@
   /* icon */
 
   --icon-cocial: rgba(175, 177, 184, 1);
-  --icon-color: rgba(47, 48, 58, 1);
   --icon-background: rgba(245, 244, 250, 1);
 }
 
@@ -82,10 +81,7 @@ img {
 }
 
 .social-links-info .item:hover .contacts-mail,
-.social-links-info .item:focus .contacts-mail {
-  color: var(--blue-text);
-}
-
+.social-links-info .item:focus .contacts-mail,
 .social-links-info .item:hover .contacts-tel,
 .social-links-info .item:focus .contacts-tel {
   color: var(--blue-text);
@@ -511,6 +507,9 @@ img {
 /* address */
 
 .conteiner-footer {
+  justify-content: flex-start;
+  align-items: baseline;
+  display: flex;
   background: var(--background-section-one);
 }
 
@@ -518,10 +517,10 @@ img {
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 60px;
-  padding-bottom: 60px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  padding-top: 74px;
+  padding-bottom: 46px;
 }
 
 .logo-footer {
@@ -580,17 +579,22 @@ img {
   text-transform: uppercase;
   color: var(--white-text);
 
-  padding-top: 68px;
+  padding-top: 86px;
 }
 
 .cocial-icons {
-  display: flex;
   justify-content: center;
   align-items: baseline;
+  padding-left: 70px;
 }
 
 .list-info {
   display: flex;
+  padding-left: 0;
+}
+
+.cocial-info {
+  padding-left: 0;
 }
 
 .list-info > .icon-list:not(:last-child) {
@@ -604,15 +608,11 @@ img {
   justify-content: center;
 }
 
-.list-info .icon-list :hover .cocial-info {
-  fill: var(--blue-text);
-}
-
 .icon-list {
   padding: 12px;
   margin-right: 10px;
   border-radius: 50%;
-  fill: var(--icon-color);
+  fill: var(--header-backgraund);
 }
 
 .icons-svg {
