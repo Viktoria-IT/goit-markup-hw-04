@@ -10,7 +10,7 @@
 
   --border: rgba(236, 236, 236, 1);
   --border-card: rgba(238, 238, 238, 0.8);
-  --header-backgraund: rgba(47, 48, 58, 0.4);
+  --header-backgraund: rgba(255, 255, 255, 0.1);
 
   /* icon */
 
@@ -75,9 +75,9 @@ img {
   align-items: center;
 }
 
-.item .icon-mail,
-.item .icon-tel {
-  margin-left: 10px;
+.item .icon,
+.item .icon {
+  margin-right: 10px;
 }
 
 .social-links-info .item:hover .contacts-mail,
@@ -590,20 +590,21 @@ img {
 
 .list-info {
   display: flex;
-  padding-left: 0;
-}
-
-.cocial-info {
-  padding-left: 0;
+  margin-top: 20px;
+  padding: 0;
 }
 
 .list-info > .icon-list:not(:last-child) {
   margin-right: 10px;
 }
 
+.list-info > .icon-list:hover,
+.list-info > .icon-list:focus {
+  background-color: var(--blue-text);
+}
+
 .icons-svg {
   display: flex;
-  height: 44px;
   align-items: center;
   justify-content: center;
 }
@@ -612,7 +613,7 @@ img {
   padding: 12px;
   margin-right: 10px;
   border-radius: 50%;
-  fill: var(--header-backgraund);
+  background-color: var(--header-backgraund);
 }
 
 .icons-svg {
