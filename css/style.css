@@ -60,6 +60,7 @@ img {
 .social-links {
   display: flex;
   margin: 0;
+  padding-left: 93px;
 }
 
 .social-links > .item:not(:last-child) {
@@ -71,14 +72,9 @@ img {
   margin-left: auto;
 }
 
-.social-links-info .item {
-  display: flex;
-  align-items: center;
-}
-
-.item .icon,
 .item .icon {
   margin-right: 10px;
+  align-items: center;
 }
 
 .social-links-info .item:hover .contacts-mail,
@@ -127,7 +123,7 @@ img {
 .social-links .link:focus {
   color: var(--blue-text);
   background: var(--white-text);
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .social-links .current {
@@ -149,11 +145,12 @@ img {
 }
 
 .item .icon {
-  margin-left: 10px;
   fill: var(--pepel-text);
 }
 
 .contacts-mail {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -164,6 +161,8 @@ img {
 }
 
 .contacts-tel {
+  display: flex;
+  align-items: center;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -246,13 +245,13 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--black-text);
-  padding-top: 30px;
 }
 
 .conteiner-feature {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  padding-top: 94px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -263,7 +262,6 @@ img {
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
-  padding-top: 94px;
   margin-right: -30px;
 }
 
@@ -297,6 +295,7 @@ img {
   height: 120px;
   background-color: var(--icon-background);
   padding: 25px 100px;
+  margin-bottom: 30px;
 }
 
 /* main */
@@ -380,8 +379,8 @@ img {
 }
 
 .team-list {
-  margin-top: 30px;
   text-align: center;
+  padding: 30px 32px;
 }
 
 .team {
@@ -391,10 +390,7 @@ img {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--black-text);
-}
-
-.team-item p {
-  margin-top: 10px;
+  padding-bottom: 10px;
 }
 
 .team-card {
@@ -404,11 +400,11 @@ img {
   line-height: 19px;
   letter-spacing: 0.03em;
   color: var(--pepel-text);
+  padding-bottom: 16px;
 }
 
 .cocial-link {
   display: flex;
-  padding: 16px 32px 30px 32px;
 }
 
 .cocial-list {
@@ -466,6 +462,7 @@ img {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .list-client {
@@ -488,7 +485,6 @@ img {
   margin-right: 30px;
   flex-basis: calc(100% / 6 - 30px);
   cursor: pointer;
-  margin-top: 50px;
 }
 
 .clients-svg {
@@ -527,6 +523,10 @@ img {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
+}
+
+.logo-footer .info-text {
+  display: flex;
 }
 
 .span {
@@ -582,7 +582,7 @@ img {
 .cocial-icons {
   justify-content: center;
   align-items: baseline;
-  padding-left: 70px;
+  /* margin-left: 301px; */
 }
 
 .list-info {
